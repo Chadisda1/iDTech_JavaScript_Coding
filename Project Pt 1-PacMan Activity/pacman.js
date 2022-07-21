@@ -25,7 +25,7 @@ function Run() {
   img.src = pacArray[direction][focus];
   if (direction) {
     pos -= 20;
-    img.style.left = pos + 'px';
+    img.style.left = pos + 'px'; 
   } else {
     pos += 20;
     img.style.left = pos + 'px';
